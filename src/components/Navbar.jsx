@@ -20,7 +20,7 @@ export default function Navbar() {
         <nav className="nav-links">
           <NavLink to="/" className="nav-link" end>Home</NavLink>
           {!token && (
-            <Link to="/login" className="btn btn-primary btn-sm">Student Login</Link>
+            <Link to="/login" className="btn btn-primary btn-sm text-center">Student Login</Link>
           )}
           {token && (
             <>
