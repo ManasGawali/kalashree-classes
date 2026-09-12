@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import api from "../api/axios.js";
 import { useAuth } from "../context/AuthContext.jsx";
 
@@ -55,6 +55,9 @@ export default function Login() {
               onChange={(e) => setForm({ ...form, password: e.target.value })}
               required
             />
+            <div style={{ textAlign: 'right', marginTop: 6 }}>
+              <Link to="/forgot-password" className="fp-back-link" style={{ fontSize: 13 }}>Forgot Password?</Link>
+            </div>
           </div>
           <button className="btn btn-primary btn-block" disabled={loading}>
             {loading ? <span className="spinner" /> : "Login"}
