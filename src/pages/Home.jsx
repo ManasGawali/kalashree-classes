@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section style={{ background: "linear-gradient(180deg, #f5ede3, #fbf8f5)", padding: "48px 16px 40px" }}>
+      <section style={{ padding: "48px 16px 40px" }}>
         <div className="container text-center">
           <h1 className="font-serif" style={{ fontSize: 30, color: "var(--wood-dark)", marginBottom: 10 }}>
             Kalashree Music Classes

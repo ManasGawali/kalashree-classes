@@ -22,7 +22,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <Link to="/" className="brand" onClick={closeMenu}>
-          <span className="brand-mark">K</span>
+          <img src="/logo.jpg" alt="Kalashree" className="brand-mark" style={{ objectFit: "cover" }} />
           Kalashree Music
         </Link>
 
