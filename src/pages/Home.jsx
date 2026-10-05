@@ -20,8 +20,8 @@ export default function Home() {
             Kalashree Music Classes
           </h1>
           <p className="text-muted" style={{ maxWidth: 480, margin: "0 auto 22px", fontSize: 15 }}>
-            Learn Indian classical music with structured batches, from Prarambhik to Visharad —
-            guided by experienced gurus, one taal at a time.
+            Learn Indian classical music with structured batches, from Prarambhik to Visharad,
+            guided by guru Yogesh Godbole, one taal at a time.
           </p>
           <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
             <Link to="/login" className="btn btn-primary">Student Login</Link>
@@ -91,21 +91,21 @@ export default function Home() {
           <div className="card" style={{ padding: "20px" }}>
             <h3 style={{ fontSize: 16, margin: "0 0 8px", color: "var(--wood-dark)" }}>Fee Payment</h3>
             <p className="text-muted" style={{ fontSize: 14, margin: 0 }}>
-              Monthly fees can be paid securely online via UPI from your student dashboard —
+              Monthly fees can be paid securely online via UPI from your student dashboard,
               single month or multiple months at once.
             </p>
           </div>
           <div className="card" style={{ padding: "20px" }}>
             <h3 style={{ fontSize: 16, margin: "0 0 8px", color: "var(--wood-dark)" }}>Curriculum</h3>
             <p className="text-muted" style={{ fontSize: 14, margin: 0 }}>
-              Structured progression across 7 levels — Prarambhik through Visharad Poorna —
+              Structured progression across 7 levels — Prarambhik through Visharad Poorna,
               aligned with classical music examination boards.
             </p>
           </div>
           <div className="card" style={{ padding: "20px" }}>
             <h3 style={{ fontSize: 16, margin: "0 0 8px", color: "var(--wood-dark)" }}>Contact</h3>
             <p className="text-muted" style={{ fontSize: 14, margin: 0 }}>
-              For enquiries, reach us at kalashreemusic@gmail.com or visit us during class hours.
+              For enquiries, reach us at +91 9881425448 or visit us during class hours.
             </p>
           </div>
         </div>

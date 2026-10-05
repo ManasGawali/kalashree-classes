@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="navbar-inner">
         <Link to="/" className="brand" onClick={closeMenu}>
           <img src="/logo.jpg" alt="Kalashree" className="brand-mark" style={{ objectFit: "cover" }} />
-          Kalashree Music
+          Kalashree Music Classes
         </Link>
 
         {/* Hamburger Icon (Visible only on mobile) */}
